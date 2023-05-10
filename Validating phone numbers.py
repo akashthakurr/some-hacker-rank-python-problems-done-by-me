@@ -1,0 +1,1 @@
+print(*['YES' if bool(__import__('re').search("^[789]{1}\d{9}$", input())) else 'NO' for _ in range(int(input()))], sep='\n')
